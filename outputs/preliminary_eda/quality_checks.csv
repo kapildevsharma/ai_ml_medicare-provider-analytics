@@ -1,0 +1,10 @@
+check,value
+row_count,1296739
+column_count,76
+exact_duplicate_rows,0
+NPI_missing,0
+unique_NPI,1296739
+duplicate_NPI_rows,0
+target_missing,0
+target_zero,8
+target_negative,0

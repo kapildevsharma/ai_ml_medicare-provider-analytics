@@ -1,0 +1,77 @@
+{
+  "source_file": "/mnt/data/cms_provider_2024.csv",
+  "rows": 1296739,
+  "columns": 76,
+  "file_size_mb": 458.42,
+  "npi_unique": 1296739,
+  "duplicate_npi_rows": 0,
+  "exact_duplicate_rows": 0,
+  "target_missing": 0,
+  "target_zero": 8,
+  "target_median": 26513.0,
+  "target_mean": 92584.47359094852,
+  "target_p90": 151995.91999999995,
+  "target_p95": 261353.12299999932,
+  "target_p99": 1141640.4647999995,
+  "target_max": 306357782.68,
+  "high_cost_threshold_primary_candidate": "90th percentile; finalize after reviewing research design",
+  "high_cost_threshold_p90_count": 129674,
+  "top_missing_fields": [
+    {
+      "column": "Med_Sprsn_Ind",
+      "missing_n": 1145043,
+      "missing_pct": 88.3017322684056
+    },
+    {
+      "column": "Drug_Sprsn_Ind",
+      "missing_n": 1145043,
+      "missing_pct": 88.3017322684056
+    },
+    {
+      "column": "Bene_Race_API_Cnt",
+      "missing_n": 1062540,
+      "missing_pct": 81.93938795702142
+    },
+    {
+      "column": "Bene_Race_Othr_Cnt",
+      "missing_n": 1052600,
+      "missing_pct": 81.17284974077282
+    },
+    {
+      "column": "Bene_Race_Hspnc_Cnt",
+      "missing_n": 988886,
+      "missing_pct": 76.2594477377483
+    },
+    {
+      "column": "Bene_Race_Black_Cnt",
+      "missing_n": 924899,
+      "missing_pct": 71.32499292455921
+    },
+    {
+      "column": "Bene_CC_BH_PTSD_V1_Pct",
+      "missing_n": 882169,
+      "missing_pct": 68.02980399293921
+    },
+    {
+      "column": "Bene_CC_BH_ADHD_OthCD_V1_Pct",
+      "missing_n": 875024,
+      "missing_pct": 67.47880645218505
+    },
+    {
+      "column": "Bene_CC_BH_PD_V1_Pct",
+      "missing_n": 852076,
+      "missing_pct": 65.70913653402883
+    },
+    {
+      "column": "Bene_Race_NatInd_Cnt",
+      "missing_n": 848880,
+      "missing_pct": 65.46267213371387
+    }
+  ],
+  "notes": [
+    "Provider-level public aggregate data, not individual claims/patients.",
+    "Chronic-condition percentages are privacy top-coded at 75; missingness may reflect suppression/availability.",
+    "Avoid using allowed/standardized payment amounts as predictors of total payment in the primary model due to target leakage.",
+    "This script is EDA only; it does not fit or validate predictive models."
+  ]
+}

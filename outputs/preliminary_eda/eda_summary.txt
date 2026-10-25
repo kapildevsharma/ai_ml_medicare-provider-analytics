@@ -1,0 +1,124 @@
+CMS 2024 Medicare Physician & Other Practitioners — by Provider
+Input: /mnt/data/cms_provider_2024.csv
+Rows: 1,296,739 | Columns: 76 | File size: 458.4 MB
+Unit of analysis: provider/NPI; unique non-null NPIs: 1,296,739
+Exact duplicate rows: 0
+Duplicate NPIs: 0 rows involved
+
+Top 15 fields by missingness:
+                         column  missing_n missing_pct
+                  Med_Sprsn_Ind    1145043      88.30%
+                 Drug_Sprsn_Ind    1145043      88.30%
+              Bene_Race_API_Cnt    1062540      81.94%
+             Bene_Race_Othr_Cnt    1052600      81.17%
+            Bene_Race_Hspnc_Cnt     988886      76.26%
+            Bene_Race_Black_Cnt     924899      71.32%
+         Bene_CC_BH_PTSD_V1_Pct     882169      68.03%
+   Bene_CC_BH_ADHD_OthCD_V1_Pct     875024      67.48%
+           Bene_CC_BH_PD_V1_Pct     852076      65.71%
+           Bene_Race_NatInd_Cnt     848880      65.46%
+    Bene_CC_PH_Parkinson_V2_Pct     804287      62.02%
+Bene_CC_BH_Schizo_OthPsy_V1_Pct     767990      59.22%
+      Bene_CC_BH_Bipolar_V1_Pct     735331      56.71%
+             Bene_Age_LT_65_Cnt     690801      53.27%
+             Bene_Age_GT_84_Cnt     678412      52.32%
+
+Key categorical distributions:
+
+Rndrng_Prvdr_Type (top 10):
+Rndrng_Prvdr_Type
+Nurse Practitioner                               203212
+Physician Assistant                              112514
+Internal Medicine                                 93627
+Family Practice                                   83639
+Physical Therapist in Private Practice            77901
+Certified Registered Nurse Anesthetist (CRNA)     53495
+Emergency Medicine                                50101
+Anesthesiology                                    41082
+Diagnostic Radiology                              32843
+Chiropractic                                      32394
+
+Rndrng_Prvdr_State_Abrvtn (top 10):
+Rndrng_Prvdr_State_Abrvtn
+CA    105363
+NY     88642
+TX     86803
+FL     85872
+PA     63361
+OH     52310
+IL     51368
+NC     44655
+MI     43221
+NJ     39694
+
+Rndrng_Prvdr_Mdcr_Prtcptg_Ind (top 10):
+Rndrng_Prvdr_Mdcr_Prtcptg_Ind
+Y    1295719
+N       1020
+
+Rndrng_Prvdr_Ent_Cd (top 10):
+Rndrng_Prvdr_Ent_Cd
+I    1235757
+O      60982
+
+Drug_Sprsn_Ind (top 10):
+Drug_Sprsn_Ind
+NaN    1145043
+*       151625
+#           71
+
+Med_Sprsn_Ind (top 10):
+Med_Sprsn_Ind
+NaN    1145043
+#       151476
+*          220
+
+Key numeric summary:
+                        count        mean          std     min        1%        5%        10%        25%         50%         75%         90%          95%          99%         99.9%           max
+Tot_HCPCS_Cds       1296739.0      25.592       27.917   1.000     1.000     3.000      5.000      8.000      16.000      34.000      57.000       77.000      140.000  2.180000e+02  8.330000e+02
+Tot_Benes           1296739.0     281.466     2678.782  11.000    11.000    16.000     23.000     52.000     130.000     282.000     551.000      882.000     2410.000  6.327786e+03  1.560327e+06
+Tot_Srvcs           1296739.0    2707.430    45638.918  11.000    17.000    35.000     59.000    151.000     433.000    1280.000    3455.000     6227.000    32285.872  2.387433e+05  1.931950e+07
+Tot_Sbmtd_Chrg      1296739.0  380955.559  3336994.230  31.690  2614.609  7201.036  13159.416  37152.000  110623.780  293178.610  678051.608  1160369.020  4428116.755  1.965898e+07  1.286033e+09
+Tot_Mdcr_Alowd_Amt  1296739.0  117336.290   849026.726  26.400  1095.549  2735.823   4801.086  12783.345   34698.540   86273.805  196772.478   338109.999  1438059.649  6.439626e+06  3.063578e+08
+Tot_Mdcr_Pymt_Amt   1296739.0   92584.474   769861.168   0.000   779.320  2021.688   3581.376   9634.955   26513.000   66672.405  151995.920   261353.123  1141640.465  5.182676e+06  3.063578e+08
+Tot_Mdcr_Stdzd_Amt  1296739.0   91981.695   762279.165   0.000   797.508  2023.528   3584.208   9667.190   26596.770   66526.605  150591.464   257460.570  1136946.602  5.187395e+06  3.064470e+08
+Bene_Avg_Age        1296739.0      73.005        5.038   7.000    53.000    65.000     68.000     72.000      74.000      75.000      77.000       79.000       84.000  8.800000e+01  9.400000e+01
+Bene_Avg_Risk_Scre  1296739.0       1.589        0.805   0.284     0.663     0.798      0.877      1.037       1.355       1.948       2.571        3.003        4.252  8.302000e+00  1.341300e+01
+
+Beneficiary count consistency:
+                   check  complete_rows  exact_sum_matches_Tot_Benes  mismatches  missing_component_rows  median_abs_difference_complete
+        age_count_fields         532533                       532533           0                  764206                             0.0
+        sex_count_fields        1120401                      1120401           0                  176338                             0.0
+dual_status_count_fields         832257                       832257           0                  464482                             0.0
+       race_count_fields          78681                        78681           0                 1218058                             0.0
+
+Target payment quantiles ($):
+0.000    0.000000e+00
+0.010    7.793200e+02
+0.050    2.021690e+03
+0.100    3.581380e+03
+0.250    9.634960e+03
+0.500    2.651300e+04
+0.750    6.667240e+04
+0.900    1.519959e+05
+0.950    2.613531e+05
+0.990    1.141640e+06
+0.999    5.182676e+06
+1.000    3.063578e+08
+
+High-cost candidate thresholds:
+ quantile   threshold  n_at_or_above  pct_at_or_above
+     0.90  151995.920         129674             10.0
+     0.95  261353.123          64837              5.0
+     0.99 1141640.465          12968              1.0
+
+Spearman correlation with target:
+Tot_Mdcr_Pymt_Amt     1.0000
+Tot_Mdcr_Alowd_Amt    0.9981
+Tot_Mdcr_Stdzd_Amt    0.9980
+Tot_Srvcs             0.8942
+Tot_Sbmtd_Chrg        0.8891
+Tot_Benes             0.8081
+Tot_HCPCS_Cds         0.5088
+Bene_Avg_Age          0.3600
+Bene_Avg_Risk_Scre    0.0886

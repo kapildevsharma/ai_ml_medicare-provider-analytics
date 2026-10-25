@@ -1,0 +1,5 @@
+check,complete_rows,exact_sum_matches_Tot_Benes,mismatches,missing_component_rows,median_abs_difference_complete
+age_count_fields,532533,532533,0,764206,0.0
+sex_count_fields,1120401,1120401,0,176338,0.0
+dual_status_count_fields,832257,832257,0,464482,0.0
+race_count_fields,78681,78681,0,1218058,0.0
