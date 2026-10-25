@@ -1,4 +1,0 @@
-check,components_used,total_column,rows_with_complete_values,rows_with_difference,rows_with_difference_pct_of_complete
-Beneficiary age bands vs total beneficiaries,"Bene_Age_65_74_Cnt, Bene_Age_75_84_Cnt, Bene_Age_GT_84_Cnt",Tot_Benes,532533,524090,98.41455834661889
-Sex counts vs total beneficiaries,"Bene_Feml_Cnt, Bene_Male_Cnt",Tot_Benes,1120401,0,0.0
-Dual-status counts vs total beneficiaries,"Bene_Dual_Cnt, Bene_Ndual_Cnt",Tot_Benes,832257,0,0.0
