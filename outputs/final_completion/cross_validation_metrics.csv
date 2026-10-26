@@ -1,0 +1,3 @@
+model,folds,rows_used,cv_scope,MAE_mean,MAE_sd,R2_mean,R2_sd
+Linear regression,5,100000,"CV on representative subset of 100,000 rows, sampled from 129,674 rows.",135735.32213853256,5990.3902519242165,0.23102272535696108,0.12718629768619774
+Random forest,5,100000,"CV on representative subset of 100,000 rows, sampled from 129,674 rows.",57575.690148755,6105.7374228291055,0.1557619573350632,0.17941113222186078

@@ -1,0 +1,17 @@
+{
+  "raw_rows": 1296739,
+  "eligible_rows_after_target_filter": 1296739,
+  "columns": 76,
+  "duplicate_rows": 0,
+  "target_missing_after_filter": 0,
+  "target_negative_after_filter": 0,
+  "target_zero_count": 8,
+  "target_zero_pct": 0.0006169321659948532,
+  "target_min": 0.0,
+  "target_median": 26513.0,
+  "target_mean": 92584.47359094858,
+  "target_p90": 151995.91999999995,
+  "target_p95": 261353.12299999932,
+  "target_p99": 1141640.4647999995,
+  "target_max": 306357782.68
+}

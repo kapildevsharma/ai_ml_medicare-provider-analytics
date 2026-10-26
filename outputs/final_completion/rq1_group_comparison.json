@@ -1,0 +1,18 @@
+{
+  "group_column": "Rndrng_Prvdr_Type",
+  "group_1": "Nurse Practitioner",
+  "n_group_1": 203212,
+  "median_group_1": 13301.49,
+  "group_2": "Physician Assistant",
+  "n_group_2": 112514,
+  "median_group_2": 12626.45,
+  "median_difference_group1_minus_group2": 675.039999999999,
+  "median_difference_bootstrap_95ci": [
+    514.1593749999993,
+    822.1864999999992
+  ],
+  "mann_whitney_U": 11704069956.5,
+  "p_value": 1.4229580583249705e-28,
+  "rank_biserial_correlation": 0.023790251341072377,
+  "warning": "Confirm the group comparison matches the approved RQ1; observational association is not causation."
+}

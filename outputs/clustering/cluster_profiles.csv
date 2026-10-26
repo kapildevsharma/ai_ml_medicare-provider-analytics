@@ -1,0 +1,3 @@
+Cluster,Provider_Count,Provider_Percent,Tot_Benes_mean,Tot_Benes_median,Tot_Benes_p90,Tot_Srvcs_mean,Tot_Srvcs_median,Tot_Srvcs_p90,Tot_Mdcr_Pymt_Amt_mean,Tot_Mdcr_Pymt_Amt_median,Tot_Mdcr_Pymt_Amt_p90,Rndrng_Prvdr_Type_most_common,Rndrng_Prvdr_Type_most_common_percent,Rndrng_Prvdr_State_Abrvtn_most_common,Rndrng_Prvdr_State_Abrvtn_most_common_percent
+0,65637,50.617,530.6604201898319,280.0,885.0,5918.84534942182,1210.0,6181.4000000000015,182989.69953885768,64172.09,259370.59200000003,Nurse Practitioner,11.626064567241038,CA,8.582049758520347
+1,64037,49.383,64.25928759935663,53.0,131.0,228.28135765260706,149.0,466.0,14276.339049299624,9662.98,27942.507999999998,Nurse Practitioner,19.87288598778831,CA,7.932913784218498

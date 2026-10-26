@@ -1,0 +1,77 @@
+column,excluded_by_initial_screen,reason
+Rndrng_NPI,True,identifier
+Rndrng_Prvdr_Last_Org_Name,False,candidate predictor - review data dictionary
+Rndrng_Prvdr_First_Name,False,candidate predictor - review data dictionary
+Rndrng_Prvdr_Ent_Cd,False,candidate predictor - review data dictionary
+Rndrng_Prvdr_State_Abrvtn,False,candidate predictor - review data dictionary
+Rndrng_Prvdr_State_FIPS,False,candidate predictor - review data dictionary
+Rndrng_Prvdr_Zip5,False,candidate predictor - review data dictionary
+Rndrng_Prvdr_RUCA,False,candidate predictor - review data dictionary
+Rndrng_Prvdr_RUCA_Desc,False,candidate predictor - review data dictionary
+Rndrng_Prvdr_Cntry,False,candidate predictor - review data dictionary
+Rndrng_Prvdr_Type,False,candidate predictor - review data dictionary
+Rndrng_Prvdr_Mdcr_Prtcptg_Ind,False,candidate predictor - review data dictionary
+Tot_HCPCS_Cds,False,candidate predictor - review data dictionary
+Tot_Benes,True,possible payment/target leakage
+Tot_Srvcs,True,possible payment/target leakage
+Tot_Sbmtd_Chrg,True,possible payment/target leakage
+Tot_Mdcr_Alowd_Amt,True,possible payment/target leakage
+Tot_Mdcr_Pymt_Amt,True,target
+Tot_Mdcr_Stdzd_Amt,True,possible payment/target leakage
+Drug_Sprsn_Ind,False,candidate predictor - review data dictionary
+Drug_Tot_HCPCS_Cds,False,candidate predictor - review data dictionary
+Drug_Tot_Benes,True,possible payment/target leakage
+Drug_Tot_Srvcs,True,possible payment/target leakage
+Drug_Sbmtd_Chrg,True,possible payment/target leakage
+Drug_Mdcr_Alowd_Amt,True,possible payment/target leakage
+Drug_Mdcr_Pymt_Amt,True,possible payment/target leakage
+Drug_Mdcr_Stdzd_Amt,True,possible payment/target leakage
+Med_Sprsn_Ind,False,candidate predictor - review data dictionary
+Med_Tot_HCPCS_Cds,False,candidate predictor - review data dictionary
+Med_Tot_Benes,True,possible payment/target leakage
+Med_Tot_Srvcs,True,possible payment/target leakage
+Med_Sbmtd_Chrg,True,possible payment/target leakage
+Med_Mdcr_Alowd_Amt,True,possible payment/target leakage
+Med_Mdcr_Pymt_Amt,True,possible payment/target leakage
+Med_Mdcr_Stdzd_Amt,True,possible payment/target leakage
+Bene_Avg_Age,False,candidate predictor - review data dictionary
+Bene_Age_LT_65_Cnt,False,candidate predictor - review data dictionary
+Bene_Age_65_74_Cnt,False,candidate predictor - review data dictionary
+Bene_Age_75_84_Cnt,False,candidate predictor - review data dictionary
+Bene_Age_GT_84_Cnt,False,candidate predictor - review data dictionary
+Bene_Feml_Cnt,False,candidate predictor - review data dictionary
+Bene_Male_Cnt,False,candidate predictor - review data dictionary
+Bene_Race_Wht_Cnt,False,candidate predictor - review data dictionary
+Bene_Race_Black_Cnt,False,candidate predictor - review data dictionary
+Bene_Race_API_Cnt,False,candidate predictor - review data dictionary
+Bene_Race_Hspnc_Cnt,False,candidate predictor - review data dictionary
+Bene_Race_NatInd_Cnt,False,candidate predictor - review data dictionary
+Bene_Race_Othr_Cnt,False,candidate predictor - review data dictionary
+Bene_Dual_Cnt,False,candidate predictor - review data dictionary
+Bene_Ndual_Cnt,False,candidate predictor - review data dictionary
+Bene_Avg_Risk_Scre,False,candidate predictor - review data dictionary
+Bene_CC_BH_ADHD_OthCD_V1_Pct,False,candidate predictor - review data dictionary
+Bene_CC_BH_Alcohol_Drug_V1_Pct,False,candidate predictor - review data dictionary
+Bene_CC_BH_Tobacco_V1_Pct,False,candidate predictor - review data dictionary
+Bene_CC_BH_Alz_NonAlzdem_V2_Pct,False,candidate predictor - review data dictionary
+Bene_CC_BH_Anxiety_V1_Pct,False,candidate predictor - review data dictionary
+Bene_CC_BH_Bipolar_V1_Pct,False,candidate predictor - review data dictionary
+Bene_CC_BH_Mood_V2_Pct,False,candidate predictor - review data dictionary
+Bene_CC_BH_Depress_V1_Pct,False,candidate predictor - review data dictionary
+Bene_CC_BH_PD_V1_Pct,False,candidate predictor - review data dictionary
+Bene_CC_BH_PTSD_V1_Pct,False,candidate predictor - review data dictionary
+Bene_CC_BH_Schizo_OthPsy_V1_Pct,False,candidate predictor - review data dictionary
+Bene_CC_PH_Asthma_V2_Pct,False,candidate predictor - review data dictionary
+Bene_CC_PH_Afib_V2_Pct,False,candidate predictor - review data dictionary
+Bene_CC_PH_Cancer6_V2_Pct,False,candidate predictor - review data dictionary
+Bene_CC_PH_CKD_V2_Pct,False,candidate predictor - review data dictionary
+Bene_CC_PH_COPD_V2_Pct,False,candidate predictor - review data dictionary
+Bene_CC_PH_Diabetes_V2_Pct,False,candidate predictor - review data dictionary
+Bene_CC_PH_HF_NonIHD_V2_Pct,False,candidate predictor - review data dictionary
+Bene_CC_PH_Hyperlipidemia_V2_Pct,False,candidate predictor - review data dictionary
+Bene_CC_PH_Hypertension_V2_Pct,False,candidate predictor - review data dictionary
+Bene_CC_PH_IschemicHeart_V2_Pct,False,candidate predictor - review data dictionary
+Bene_CC_PH_Osteoporosis_V2_Pct,False,candidate predictor - review data dictionary
+Bene_CC_PH_Parkinson_V2_Pct,False,candidate predictor - review data dictionary
+Bene_CC_PH_Arthritis_V2_Pct,False,candidate predictor - review data dictionary
+Bene_CC_PH_Stroke_TIA_V2_Pct,False,candidate predictor - review data dictionary

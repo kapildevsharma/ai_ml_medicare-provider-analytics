@@ -1,0 +1,31 @@
+{
+  "threshold_quantile": 0.9,
+  "threshold_payment_value": 152865.95599999995,
+  "comparisons": {
+    "Random forest minus Logistic regression": {
+      "difference": -0.005919604551317348,
+      "ci95": [
+        -0.018835829736731487,
+        0.007477518715074277
+      ],
+      "successful_bootstraps": 1000
+    },
+    "Logistic regression minus Prior baseline": {
+      "difference": 0.6439157729516825,
+      "ci95": [
+        0.6291149491408435,
+        0.6596593230019657
+      ],
+      "successful_bootstraps": 1000
+    },
+    "Random forest minus Prior baseline": {
+      "difference": 0.6379961684003651,
+      "ci95": [
+        0.6231593580666827,
+        0.6529174003838419
+      ],
+      "successful_bootstraps": 1000
+    }
+  },
+  "note": "Interpret confidence intervals and practical significance; do not infer causality."
+}

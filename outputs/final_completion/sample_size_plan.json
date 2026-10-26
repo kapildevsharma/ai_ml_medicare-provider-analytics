@@ -1,0 +1,24 @@
+{
+  "RQ1": {
+    "assumptions": "two-sided alpha=.05, power=.80, standardized mean difference d=.50",
+    "approx_n_per_group": 63,
+    "approx_total_n": 126,
+    "with_5pct_exclusions_n_per_group": 66,
+    "status": "provisional; confirm test and target group contrast"
+  },
+  "RQ2": {
+    "assumptions": "10 predictors, alpha=.05, power=.80, medium effect f2=.15",
+    "approx_total_n": 118,
+    "status": "provisional; confirm predictor count and model/test"
+  },
+  "RQ3": {
+    "required_next_step": "Define minimum meaningful paired average-precision difference and run pilot-based paired simulation/bootstrap.",
+    "numeric_sample_size": null,
+    "status": "not yet finalized"
+  },
+  "RQ4": {
+    "required_next_step": "Define minimum meaningful capture@k/precision@k lift at 1%, 5%, and 10% capacity and run paired simulation/bootstrap.",
+    "numeric_sample_size": null,
+    "status": "not yet finalized"
+  }
+}

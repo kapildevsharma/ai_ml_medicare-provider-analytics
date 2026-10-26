@@ -1,0 +1,7 @@
+Column,Data_Type,Missing_Count,Missing_Percent,Unique_Values
+Rndrng_NPI,int64,0,0.0,1296739
+Rndrng_Prvdr_State_Abrvtn,object,0,0.0,62
+Rndrng_Prvdr_Type,object,0,0.0,113
+Tot_Benes,int64,0,0.0,6601
+Tot_Srvcs,float64,0,0.0,43283
+Tot_Mdcr_Pymt_Amt,float64,0,0.0,1198729

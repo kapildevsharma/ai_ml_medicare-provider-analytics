@@ -1,0 +1,16 @@
+output,exists,size_bytes
+data_quality_summary.json,True,479
+schema_and_missingness.csv,True,4183
+feature_leakage_audit.csv,True,5200
+regression_metrics.csv,True,291
+cross_validation_metrics.csv,True,411
+classification_metrics.csv,True,502
+rq1_group_comparison.json,True,609
+rq2_permutation_importance.csv,True,5202
+rq2_permutation_importance_top15.png,True,105750
+rq3_paired_ap_bootstrap.json,True,839
+rq4_topk_review_capture.csv,True,834
+rq4_topk_bootstrap_intervals.csv,True,1062
+sample_size_plan.json,True,920
+run_manifest.json,True,4790
+final_results_bundle.xlsx,True,11483

@@ -1,0 +1,5 @@
+Cluster,Feature,N,Spearman_Rho,P_Value,Status,Holm_Adjusted_P_Value,Alpha,Reject_H0,Interpretation
+0,Tot_Srvcs,65637,0.7422625751378611,0.0,Tested,0.0,0.05,True,Positive monotonic association; statistically significant after Holm correction.
+0,Tot_Benes,65637,0.5415917802366248,0.0,Tested,0.0,0.05,True,Positive monotonic association; statistically significant after Holm correction.
+1,Tot_Srvcs,64037,0.7843216092327573,0.0,Tested,0.0,0.05,True,Positive monotonic association; statistically significant after Holm correction.
+1,Tot_Benes,64037,0.5739383846775715,0.0,Tested,0.0,0.05,True,Positive monotonic association; statistically significant after Holm correction.
